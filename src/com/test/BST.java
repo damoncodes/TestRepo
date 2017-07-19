@@ -3,6 +3,7 @@ package com.test;
 public class BST {
 
 	public Node root;
+	public String msg="This is a change";
 
 	public void insert(int value) {
 		Node node = new Node(value);
